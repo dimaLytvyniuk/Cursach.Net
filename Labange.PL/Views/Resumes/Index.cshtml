@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Labange.PL.Models.Resume.ResumeListItemModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Resumes</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]">@Html.DisplayNameFor(model => model.Name)</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["ExperienceYearsSortParm"]">@Html.DisplayNameFor(model => model.ExperienceYears)</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["SkillCategorySortParm"]">@Html.DisplayNameFor(model => model.SkillCategory)</a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="Unemployeds" asp-action="Details" asp-route-id="@item.UnemployedId">@Html.DisplayFor(modelItem => item.Name)</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ExperienceYears)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SkillCategory)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

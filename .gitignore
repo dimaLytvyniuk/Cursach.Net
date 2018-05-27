@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs
+/Labange.BLL/bin/Debug/netstandard2.0
+/Labange.BLL/obj/Debug/netstandard2.0
+/Labange.DAL/bin/Debug/netstandard2.0
+/Labange.DAL/obj/Debug/netstandard2.0
+/Labange.PL/bin/Debug/netcoreapp2.0
+/Labange.PL/obj/Debug/netcoreapp2.0

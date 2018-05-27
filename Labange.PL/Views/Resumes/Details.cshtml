@@ -1,0 +1,54 @@
+﻿@model Labange.PL.Models.Resume.ResumeDetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Resume</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            <a asp-controller="Unemployeds" asp-action="Details" asp-route-id="@Model.UnemployedId">@Html.DisplayFor(model => model.Name)</a>
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.About)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.About)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ExperienceYears)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ExperienceYears)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Skills)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Skills)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PlacesOfWork)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PlacesOfWork)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SkillCategory)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SkillCategory)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

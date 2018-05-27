@@ -1,0 +1,56 @@
+﻿@model Labange.PL.Models.Resume.ResumeCreateModel
+@using Labange.DAL.Entities;
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>Resume</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="About" class="control-label"></label>
+                <textarea asp-for="About" class="form-control" rows="4">
+                </textarea>
+                <span asp-validation-for="About" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExperienceYears" class="control-label"></label>
+                <input asp-for="ExperienceYears" class="form-control" />
+                <span asp-validation-for="ExperienceYears" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Skills" class="control-label"></label>
+                <textarea asp-for="Skills" class="form-control" rows="5">
+                </textarea>
+                <span asp-validation-for="Skills" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PlacesOfWork" class="control-label"></label>
+                <textarea asp-for="PlacesOfWork" class="form-control" rows="5">
+                </textarea>
+                <span asp-validation-for="PlacesOfWork" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SkillCategory" class="control-label"></label>
+                <select asp-for="SkillCategory" class="form-control" asp-items="@Html.GetEnumSelectList<SkillCategory>()">
+                    <option value="">-- Select Category of Skills--</option>
+                </select>
+                <span asp-validation-for="SkillCategory" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
