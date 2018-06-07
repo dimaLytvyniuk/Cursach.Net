@@ -74,7 +74,7 @@ namespace Labange.PL.Controllers
 
             CompanyDetailsDto companyDto = await _companyService.GetCompanyAsync((int)id);
             var company = _mapper.Map<CompanyDetailsDto, CompanyDetailsModel>(companyDto);
-            company.About = company.About.Replace("\r\n", "<br>");
+
             if (company == null)
             {
                 return NotFound();

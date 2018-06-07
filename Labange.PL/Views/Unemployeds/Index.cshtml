@@ -6,16 +6,20 @@
 
 <h2>Unemployeds</h2>
 
-<p>
-    <a asp-action="Create">Create New</a>
+<p class="create-button">
+    <a asp-action="Create">
+        <input type="submit" value="Create New" class="btn btn-default" />
+    </a>
 </p>
 
-<form asp-action="Index" method="get">
+<form asp-action="Index" method="get" class="search-box">
     <div class="form-actions no-color">
         <p>
             Search: <input type="text" name="SearchString" value="@ViewData["SearchFilter"]" />
             <input type="submit" value="Search" class="btn btn-default" /> |
-            <a asp-action="Index">Back to Full List</a>
+            <a asp-action="Index">
+                <button type="button" class="btn btn-default">Back to Full List</button>
+            </a>
         </p>
     </div>
 </form>

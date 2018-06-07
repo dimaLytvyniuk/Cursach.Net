@@ -11,5 +11,8 @@ namespace Labange.DAL.Entities
         public string LastName { get; set; }
         public string City { get; set; }
         public DateTime Birthday { get; set; }
+
+        public int ResumeId { get; set; }
+        public Resume Resume { get; set; }
     }
 }

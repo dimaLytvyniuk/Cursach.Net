@@ -18,5 +18,14 @@ namespace Labange.DAL.EF
         {
             Database.EnsureCreated();
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Resume>()
+                .HasOne(r => r.Unemployed)
+                .WithOne(u => u.Resume)
+                .HasForeignKey<Resume>(r => r.UnemployedId);
+        }
     }
 }

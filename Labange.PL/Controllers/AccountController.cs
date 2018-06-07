@@ -73,8 +73,9 @@ namespace Labange.PL.Controllers
                     return RedirectToAction("Index", "Home");
                 }
             }
-            else
-                ModelState.AddModelError("", "Incorrect data");
+
+            ModelState.AddModelError("", "Incorrect data");
+
             return View(model);
         }
 

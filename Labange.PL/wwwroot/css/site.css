@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Wrapping element */
@@ -32,4 +33,34 @@
     .carousel-caption {
         display: none;
     }
+}
+
+.content-container {
+    margin-top: 30px;
+    min-height: 800px;
+}
+
+.search-box {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.create-button {
+    margin-top: 15px;
+}
+
+pre {
+    background-color: white;
+}
+
+.sub-button {
+    margin-top: 20px;
+}
+
+.data-form {
+    margin-top: 20px;
+}
+
+.validation {
+    color: red;
 }
