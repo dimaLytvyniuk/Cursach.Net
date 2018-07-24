@@ -9,3 +9,6 @@
 /Labange.DAL/obj/Debug/netstandard2.0
 /Labange.PL/bin/Debug/netcoreapp2.0
 /Labange.PL/obj/Debug/netcoreapp2.0
+/.idea
+obj
+bin

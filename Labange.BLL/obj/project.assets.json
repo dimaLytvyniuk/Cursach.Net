@@ -183,7 +183,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "NETStandard.Library/2.0.1": {
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -1003,14 +1003,13 @@
         "runtime.json"
       ]
     },
-    "NETStandard.Library/2.0.1": {
-      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
-      "path": "netstandard.library/2.0.1",
+      "path": "netstandard.library/2.0.3",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -1127,12 +1126,12 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.1.nupkg.sha512",
+        "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
     "Remotion.Linq/2.1.1": {
-      "sha512": "bOOPhUWsu0I23PrXecHiQrHA5vIwsDInhlK7U6r8UIs3iKcBH49TL5gLVMUxu/XEBiz96xCud4zsk6C6VFQhJQ==",
+      "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
@@ -1304,7 +1303,7 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "PMIQearBBh0OtF1dvMuhSTEOUX5to3K1zGdCLFvRe2OEZfnb7/Ish0mOQjaggeDlzlkj/y6cTLrOigPNeiq4ag==",
+      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
@@ -1341,7 +1340,7 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "1aPf8oBSr/DX6tN4pYBIS3b84JMkq9FpRnnPY9GfehkcSrjCCLuzFHO+FJ8laHYVR8d6ahNgeiz8EXbWrfuH4A==",
+      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
@@ -1520,7 +1519,7 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "twhbzcQ/c9eUmqD0q8AXp/0GA7AP1kch4aMq5thBnr9PNDmbw4SoUz/eDJb9FGpcI2/bt9ra4i6uGbz4bNmVOw==",
+      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
@@ -1557,7 +1556,7 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "qR7nMeNAbaICJhqAmQJc65CMRPrf8Ub/ZtBrmMjIGeJrdav22ZPJfLo0hxl0fA2W3uRh+I4n2JgJTnwP/h0+uA==",
+      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
@@ -3067,7 +3066,7 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "OXDthNLOj42BJF0wwVryFkbhGYAuDKLdQ1SFGlI/+kM/xmk2xmJMfTgdPPNhH2Zr3se/CmLjad0I0u1pL4wvmA==",
+      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
@@ -3430,41 +3429,39 @@
     ".NETStandard,Version=v2.0": [
       "AutoMapper >= 6.2.2",
       "Labange.DAL >= 1.0.0",
-      "NETStandard.Library >= 2.0.1"
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dima2\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/home/dima/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\C\\DIMA\\Univer\\Cursach.Net\\Labange.BLL\\Labange.BLL.csproj",
+      "projectUniqueName": "/media/dima/F268AC7168AC366F/C/DIMA/Univer/Cursach.Net/Labange.BLL/Labange.BLL.csproj",
       "projectName": "Labange.BLL",
-      "projectPath": "F:\\C\\DIMA\\Univer\\Cursach.Net\\Labange.BLL\\Labange.BLL.csproj",
-      "packagesPath": "C:\\Users\\dima2\\.nuget\\packages\\",
-      "outputPath": "F:\\C\\DIMA\\Univer\\Cursach.Net\\Labange.BLL\\obj\\",
+      "projectPath": "/media/dima/F268AC7168AC366F/C/DIMA/Univer/Cursach.Net/Labange.BLL/Labange.BLL.csproj",
+      "packagesPath": "/home/dima/.nuget/packages/",
+      "outputPath": "/media/dima/F268AC7168AC366F/C/DIMA/Univer/Cursach.Net/Labange.BLL/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dima2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/dima/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "F:\\C\\DIMA\\Univer\\Cursach.Net\\Labange.DAL\\Labange.DAL.csproj": {
-              "projectPath": "F:\\C\\DIMA\\Univer\\Cursach.Net\\Labange.DAL\\Labange.DAL.csproj"
+            "/media/dima/F268AC7168AC366F/C/DIMA/Univer/Cursach.Net/Labange.DAL/Labange.DAL.csproj": {
+              "projectPath": "/media/dima/F268AC7168AC366F/C/DIMA/Univer/Cursach.Net/Labange.DAL/Labange.DAL.csproj"
             }
           }
         }
@@ -3485,7 +3482,7 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )",
+            "version": "[2.0.3, )",
             "autoReferenced": true
           }
         },

@@ -26,11 +26,11 @@ namespace Labange.PL
         {
             services.AddCookieAuthorization();
             services.AddBLLServices();
-            services.AddEFUnitOfWork(Configuration.GetConnectionString("DefaultConnection"));
+            services.AddEFUnitOfWork(Configuration.GetConnectionString("DockerComposeConnection"));
             services.AddMvc();
 
             services.AddDbContext<LabangeContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("Labange.PL")));
+                options.UseSqlServer(Configuration.GetConnectionString("DockerComposeConnection"), b => b.MigrationsAssembly("Labange.PL")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
